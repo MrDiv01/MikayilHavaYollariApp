@@ -1,3 +1,4 @@
+wwwroot\css\admin-layout.css
 wwwroot\main\css\aos.css
 wwwroot\main\css\bootstrap-grid.css
 wwwroot\main\css\bootstrap-reboot.css
@@ -227,3 +228,4 @@ C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\css\bootstrap-reboot.css
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\css\bootstrap-grid.css
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\css\aos.css
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\css\admin-layout.css
