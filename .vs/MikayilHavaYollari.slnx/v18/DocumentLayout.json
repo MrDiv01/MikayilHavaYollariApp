@@ -1,0 +1,595 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\areas\\admin\\controllers\\homeslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\areas\\admin\\controllers\\homeslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\models\\homeslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\models\\homeslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\areas\\admin\\views\\homeslider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\areas\\admin\\views\\homeslider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\areas\\admin\\views\\homeslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\areas\\admin\\views\\homeslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\areas\\admin\\views\\homeslider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\areas\\admin\\views\\homeslider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\controllers\\userformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\controllers\\userformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\dtos\\userformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\dtos\\userformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\models\\getintouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\models\\getintouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\migrations\\20260414094830_getintouchclassadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\migrations\\20260414094830_getintouchclassadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\about\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\migrations\\20260414092645_aboutandhomeslidersadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\migrations\\20260414092645_aboutandhomeslidersadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\mikayilhavayollari.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\mikayilhavayollari.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\services\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\services\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\blog\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\blog\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|c:\\users\\msi\\desktop\\backendlondon\\mikayilhavayollari\\mikayilhavayollari\\views\\single\\single.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8114B2B6-9F1C-2C4A-C78F-87A7507B09CE}|MikayilHavaYollari\\MikayilHavaYollari.csproj|solutionrelative:mikayilhavayollari\\views\\single\\single.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeSliderController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Controllers\\HomeSliderController.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Areas\\Admin\\Controllers\\HomeSliderController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Controllers\\HomeSliderController.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Areas\\Admin\\Controllers\\HomeSliderController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwDYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T09:42:22.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:29:06.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeSlider.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\HomeSlider.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Models\\HomeSlider.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\HomeSlider.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Models\\HomeSlider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:13:53.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewAgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:15:35.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:28:56.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Index.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Index.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Index.cshtml",
+              "ViewState": "AgIAABUBAAAAAAAAAAAewCMBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T09:42:45.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Update.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Update.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Update.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Update.cshtml",
+              "ViewState": "AgIAACoBAAAAAAAAAAAAAC8BAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T10:00:50.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Program.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Program.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Program.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAnwBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:43:18.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Create.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Create.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Areas\\Admin\\Views\\HomeSlider\\Create.cshtml",
+              "ViewState": "AgIAACIBAAAAAAAAAAAhwC4BAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T10:39:26.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T10:35:01.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T10:04:03.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "MikayilHavaYollari\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-22T09:41:00.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T10:34:56.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserFormController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\UserFormController.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Controllers\\UserFormController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\UserFormController.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Controllers\\UserFormController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T10:09:31.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:02:23.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\About\\About.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\About\\About.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\About\\About.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\About\\About.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:30:49.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetInTouch.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\GetInTouch.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Models\\GetInTouch.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\GetInTouch.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Models\\GetInTouch.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:45:56.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserFormDto.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\DTOs\\UserFormDto.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\DTOs\\UserFormDto.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\DTOs\\UserFormDto.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\DTOs\\UserFormDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T10:11:58.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\appsettings.json",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\appsettings.json",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\appsettings.json",
+              "RelativeToolTip": "MikayilHavaYollari\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T09:22:18.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260414094830_GetInTouchClassAdded.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Migrations\\20260414094830_GetInTouchClassAdded.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Migrations\\20260414094830_GetInTouchClassAdded.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Migrations\\20260414094830_GetInTouchClassAdded.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Migrations\\20260414094830_GetInTouchClassAdded.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:48:32.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Contact\\contact.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\Contact\\contact.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Contact\\contact.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\Contact\\contact.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:34:37.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T10:20:56.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T10:48:35.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:17:59.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\About.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Models\\About.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Models\\About.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Models\\About.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:58:55.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260414092645_AboutAndhomeSlidersAdded.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Migrations\\20260414092645_AboutAndhomeSlidersAdded.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Migrations\\20260414092645_AboutAndhomeSlidersAdded.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Migrations\\20260414092645_AboutAndhomeSlidersAdded.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Migrations\\20260414092645_AboutAndhomeSlidersAdded.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:26:46.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:27:05.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAIIJAAAAAAAAAAAhwJIJAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-14T09:14:27.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MikayilHavaYollari.csproj",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\MikayilHavaYollari.csproj",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\MikayilHavaYollari.csproj",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\MikayilHavaYollari.csproj",
+              "RelativeToolTip": "MikayilHavaYollari\\MikayilHavaYollari.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-02T09:25:38.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MikayilHavaYollari\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-10T08:17:03.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "blog.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Blog\\blog.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\Blog\\blog.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Blog\\blog.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\Blog\\blog.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAEBVwAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:33:50.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "services.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Services\\services.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\Services\\services.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Services\\services.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\Services\\services.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAABhwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:36:41.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Controllers\\ServicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:01:44.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "MikayilHavaYollari\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:02:52.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "single.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Single\\single.cshtml",
+              "RelativeDocumentMoniker": "MikayilHavaYollari\\Views\\Single\\single.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\BackendLondon\\MikayilHavaYollari\\MikayilHavaYollari\\Views\\Single\\single.cshtml",
+              "RelativeToolTip": "MikayilHavaYollari\\Views\\Single\\single.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T09:37:22.349Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

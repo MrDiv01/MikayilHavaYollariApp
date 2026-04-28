@@ -1,0 +1,71 @@
+﻿
+@model List<MikayilHavaYollari.Models.HomeSlider>
+
+@{
+    ViewData["Title"] = "Home Sliders Management";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Home Sliders</h1>
+        <a asp-action="Create" asp-controller="HomeSlider" asp-area="Admin" class="btn btn-primary">
+            <i class="bi bi-plus-lg"></i> Create New
+        </a>
+    </div>
+    <hr />
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Button Text</th>
+                        <th>Button URL</th>
+                        <th>Is Active</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var slider in Model)
+                    {
+                        <tr>
+                            <td>@slider.Id</td>
+                            <td>@slider.Title</td>
+                            <td>@(slider.Description?.Length > 50 ? slider.Description.Substring(0, 50) + "..." : slider.Description)</td>
+                            <td>@slider.ButtonText</td>
+                            <td>@slider.ButtonUrl</td>
+                            <td>
+                                @if (slider.IsActive)
+                                {
+                                    <span class="badge bg-success">Active</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-danger">Inactive</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="HomeSlider" asp-area="Admin" asp-route-id="@slider.Id" class="btn btn-warning btn-sm">
+                                    <i class="bi bi-pencil"></i> Update
+                                </a>
+                                <a asp-action="Delete" asp-controller="HomeSlider" asp-area="Admin" asp-route-id="@slider.Id" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">
+                                    <i class="bi bi-trash"></i> Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info" role="alert">
+            No home sliders found. <a asp-action="Create" asp-controller="HomeSlider" asp-area="Admin">Create one now</a>
+        </div>
+    }
+</div>

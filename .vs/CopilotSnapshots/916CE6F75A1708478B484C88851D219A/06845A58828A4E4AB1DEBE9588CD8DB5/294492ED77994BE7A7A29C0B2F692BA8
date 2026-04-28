@@ -1,0 +1,23 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using MikayilHavaYollari.Data;
+
+namespace MikayilHavaYollari.Areas.Admin.Controllers
+{
+    [Area("Admin")]
+
+    public class HomeSliderController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public HomeSliderController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index()
+        {
+            var homeSliders = _context.HomeSliders.ToList();
+            return View(homeSliders);
+        }
+    }
+}

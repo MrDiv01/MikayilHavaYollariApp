@@ -1,0 +1,316 @@
+﻿
+@model List<MikayilHavaYollari.Models.HomeSlider>
+
+@{
+    ViewData["Title"] = "Home Sliders Management";
+}
+
+<style>
+    .slider-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 40px 0;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    }
+
+    .slider-header h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    .slider-header p {
+        font-size: 1.1rem;
+        margin: 10px 0 0 0;
+        opacity: 0.9;
+    }
+
+    .btn-create {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-create:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+        color: white;
+    }
+
+    .table-container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+    .table thead {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+
+    .table thead th {
+        border: none;
+        font-weight: 600;
+        padding: 20px;
+        font-size: 0.95rem;
+        letter-spacing: 0.5px;
+    }
+
+    .table tbody tr {
+        border-bottom: 1px solid #f0f0f0;
+        transition: all 0.3s ease;
+    }
+
+    .table tbody tr:hover {
+        background-color: #f8f9ff;
+        box-shadow: inset 5px 0 0 #667eea;
+    }
+
+    .table tbody td {
+        padding: 20px;
+        vertical-align: middle;
+        color: #333;
+    }
+
+    .badge {
+        padding: 8px 15px;
+        font-weight: 600;
+        border-radius: 20px;
+        font-size: 0.85rem;
+    }
+
+    .badge.bg-success {
+        background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%) !important;
+        color: white;
+    }
+
+    .badge.bg-danger {
+        background: linear-gradient(135deg, #fa709a 0%, #fee140 100%) !important;
+        color: white;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .btn-update {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        border: none;
+        color: white;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        border-radius: 6px;
+        padding: 8px 16px;
+    }
+
+    .btn-update:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
+        color: white;
+    }
+
+    .btn-delete {
+        background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        border: none;
+        color: white;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        border-radius: 6px;
+        padding: 8px 16px;
+    }
+
+    .btn-delete:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(250, 112, 154, 0.4);
+        color: white;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 60px 20px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .empty-state i {
+        font-size: 4rem;
+        color: #667eea;
+        margin-bottom: 20px;
+        opacity: 0.3;
+    }
+
+    .empty-state h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .empty-state p {
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .counter-badge {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    .modal-content {
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .modal-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .modal-header .btn-close {
+        filter: brightness(0) invert(1);
+    }
+
+    media (max-width: 768px) {
+        .slider-header h1 {
+            font-size: 1.8rem;
+        }
+
+        .btn-create {
+            padding: 10px 20px;
+            font-size: 0.9rem;
+        }
+
+        .action-buttons {
+            flex-direction: column;
+        }
+
+        .btn-update, .btn-delete {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
+
+<div class="container mt-5">
+    <!-- Header Section -->
+    <div class="slider-header mb-5">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h1><i class="bi bi-images"></i> Home Sliders</h1>
+                <p>Manage your website sliders</p>
+            </div>
+            <div class="d-none d-md-block">
+                <span class="counter-badge">Total: @(Model?.Count ?? 0)</span>
+            </div>
+        </div>
+    </div>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        <div class="mb-4">
+            <a asp-action="Create" asp-controller="HomeSlider" asp-area="Admin" class="btn btn-create btn-lg">
+                <i class="bi bi-plus-circle"></i> Create New Slider
+            </a>
+        </div>
+
+        <div class="table-container">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th><i class="bi bi-hash"></i> ID</th>
+                            <th><i class="bi bi-type"></i> Title</th>
+                            <th><i class="bi bi-file-text"></i> Description</th>
+                            <th><i class="bi bi-link-45deg"></i> Button Text</th>
+                            <th><i class="bi bi-globe"></i> Button URL</th>
+                            <th><i class="bi bi-toggles"></i> Status</th>
+                            <th><i class="bi bi-gear"></i> Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var slider in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <span style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;">
+                                        #@slider.Id
+                                    </span>
+                                </td>
+                                <td>
+                                    <strong>@slider.Title</strong>
+                                </td>
+                                <td>
+                                    <small class="text-muted">@(slider.Description?.Length > 50 ? slider.Description.Substring(0, 50) + "..." : slider.Description)</small>
+                                </td>
+                                <td>
+                                    <kbd>@slider.ButtonText</kbd>
+                                </td>
+                                <td>
+                                    <a href="@slider.ButtonUrl" target="_blank" class="text-decoration-none">
+                                        <small>@(slider.ButtonUrl?.Length > 30 ? slider.ButtonUrl.Substring(0, 30) + "..." : slider.ButtonUrl)</small>
+                                    </a>
+                                </td>
+                                <td>
+                                    @if (slider.IsActive)
+                                    {
+                                        <span class="badge bg-success">
+                                            <i class="bi bi-check-circle"></i> Active
+                                        </span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">
+                                            <i class="bi bi-x-circle"></i> Inactive
+                                        </span>
+                                    }
+                                </td>
+                                <td>
+                                    <div class="action-buttons">
+                                        <a asp-action="Update" asp-controller="HomeSlider" asp-area="Admin" asp-route-id="@slider.Id" class="btn btn-update btn-sm">
+                                            <i class="bi bi-pencil-square"></i> Update
+                                        </a>
+                                        <a asp-action="Delete" asp-controller="HomeSlider" asp-area="Admin" asp-route-id="@slider.Id" class="btn btn-update btn-sm">
+                                            <i class="bi bi-pencil-square"></i> Delete
+                                        </a>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <i class="bi bi-image"></i>
+            <h3>No Home Sliders Found</h3>
+            <p>You haven't created any sliders yet. Start by creating your first slider.</p>
+            <a asp-action="Create" asp-controller="HomeSlider" asp-area="Admin" class="btn btn-primary btn-lg">
+                <i class="bi bi-plus-circle"></i> Create Your First Slider
+            </a>
+        </div>
+    }
+</div>

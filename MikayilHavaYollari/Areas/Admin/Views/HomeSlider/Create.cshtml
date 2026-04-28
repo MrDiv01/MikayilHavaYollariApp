@@ -1,0 +1,384 @@
+﻿@model MikayilHavaYollari.Models.HomeSlider
+
+@{
+    ViewData["Title"] = "Create Home Slider";
+}
+
+<style>
+    .update-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 40px 0;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    }
+
+        .update-header h1 {
+            font-weight: 700;
+            font-size: 2rem;
+            margin: 0;
+        }
+
+    .form-container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        padding: 40px;
+        margin-bottom: 40px;
+    }
+
+    .form-group label {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .form-control, .form-select {
+        border: 2px solid #f0f0f0;
+        border-radius: 8px;
+        padding: 12px 16px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus, .form-select:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+
+        .form-control::placeholder {
+            color: #999;
+        }
+
+    textarea.form-control {
+        resize: vertical;
+        min-height: 120px;
+        font-family: inherit;
+    }
+
+    .char-count {
+        font-size: 0.85rem;
+        color: #999;
+        margin-top: 5px;
+    }
+
+    .preview-section {
+        background: #f8f9ff;
+        border: 2px dashed #667eea;
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .preview-image {
+        max-width: 100%;
+        max-height: 300px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .preview-placeholder {
+        color: #999;
+        font-style: italic;
+        padding: 40px 20px;
+    }
+
+    .form-check {
+        padding-left: 0;
+    }
+
+    .form-check-input {
+        width: 2rem;
+        height: 2rem;
+        margin-top: 0.3rem;
+        cursor: pointer;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+        .form-check-input:checked {
+            background-color: #667eea;
+            border-color: #667eea;
+        }
+
+        .form-check-input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+
+    .form-check-label {
+        margin-left: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        color: #333;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 12px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .btn-save {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border: none;
+        color: white;
+        padding: 12px 40px;
+        font-weight: 600;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+        .btn-save:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+            color: white;
+        }
+
+    .btn-cancel {
+        background: #f0f0f0;
+        border: 2px solid #ddd;
+        color: #333;
+        padding: 12px 40px;
+        font-weight: 600;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn-cancel:hover {
+            background: #e0e0e0;
+            border-color: #ccc;
+            color: #333;
+        }
+
+    .form-section-title {
+        font-weight: 700;
+        color: #667eea;
+        font-size: 1.2rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+        .form-section-title:first-child {
+            margin-top: 0;
+        }
+
+    .input-group-icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    media (max-width: 768px) {
+        .form-container {
+            padding: 25px;
+        }
+
+        .button-group {
+            flex-direction: column;
+        }
+
+        .btn-save, .btn-cancel {
+            width: 100%;
+            text-align: center;
+        }
+
+        .update-header h1 {
+            font-size: 1.5rem;
+        }
+    }
+</style>
+
+<div class="container mt-5">
+    <!-- Header Section -->
+    <div class="update-header">
+        <div>
+            <h1><i class="bi bi-pencil-square"></i> Update Home Slider</h1>
+            <p class="mb-0 mt-2" style="opacity: 0.9;">Edit slider information</p>
+        </div>
+    </div>
+
+    <!-- Form Section -->
+    <div class="form-container">
+        <form asp-action="Create" asp-controller="HomeSlider" asp-area="Admin" method="post" id="updateForm">
+            <!-- Hidden ID Field -->
+            <input type="hidden" asp-for="Id" />
+
+            <!-- Basic Information Section -->
+            <div class="form-section-title">
+                <i class="bi bi-info-circle"></i> Basic Information
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Title">
+                            <i class="bi bi-type"></i> Title
+                        </label>
+                        <input type="text" asp-for="Title" class="form-control" placeholder="Enter slider title" required>
+                        <small class="form-text text-muted">
+                            <span id="titleCount">0</span> / 100 characters
+                        </small>
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ButtonText">
+                            <i class="bi bi-link-45deg"></i> Button Text
+                        </label>
+                        <input type="text" asp-for="ButtonText" class="form-control" placeholder="e.g., Learn More" required>
+                        <span asp-validation-for="ButtonText" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="Description">
+                    <i class="bi bi-file-text"></i> Description
+                </label>
+                <textarea asp-for="Description" class="form-control" placeholder="Enter detailed description" required></textarea>
+                <small class="form-text text-muted">
+                    <span id="descCount">0</span> / 500 characters
+                </small>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <!-- URL Section -->
+            <div class="form-section-title">
+                <i class="bi bi-globe"></i> URLs
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ImageUrl">
+                            <i class="bi bi-image"></i> Image URL
+                        </label>
+                        <input type="url" asp-for="ImageUrl" class="form-control" placeholder="https://example.com/image.jpg" id="imageUrlInput" required>
+                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ButtonUrl">
+                            <i class="bi bi-link"></i> Button URL
+                        </label>
+                        <input type="url" asp-for="ButtonUrl" class="form-control" placeholder="https://example.com" required>
+                        <span asp-validation-for="ButtonUrl" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Preview -->
+            <div class="preview-section">
+                <h6>Image Preview</h6>
+                <div id="imagePreview">
+                    <div class="preview-placeholder">
+                        <i class="bi bi-image" style="font-size: 3rem;"></i>
+                        <p>Image preview will appear here</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Settings Section -->
+            <div class="form-section-title mt-5">
+                <i class="bi bi-gear"></i> Settings
+            </div>
+
+            <div class="form-group mb-4">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" asp-for="IsActive" id="isActiveCheck">
+                    <label class="form-check-label" for="isActiveCheck">
+                        <i class="bi bi-toggles"></i> Active
+                    </label>
+                </div>
+                <small class="form-text text-muted d-block mt-2">
+                    When enabled, this slider will be visible on the website
+                </small>
+            </div>
+
+            <!-- Buttons -->
+            <div class="button-group">
+                <button type="submit" class="btn btn-cancel">
+                    <i class="bi bi-x-circle"></i> Save Chage
+                </button>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Character counter for Title
+    document.getElementById('Title').addEventListener('input', function() {
+        const count = this.value.length;
+        document.getElementById('titleCount').textContent = Math.min(count, 100);
+        this.maxLength = 100;
+    });
+
+    // Character counter for Description
+    document.getElementById('Description').addEventListener('input', function() {
+        const count = this.value.length;
+        document.getElementById('descCount').textContent = Math.min(count, 500);
+        this.maxLength = 500;
+    });
+
+    // Image preview
+    document.getElementById('imageUrlInput').addEventListener('input', function() {
+        const imageUrl = this.value;
+        const preview = document.getElementById('imagePreview');
+
+        if (imageUrl && isValidUrl(imageUrl)) {
+            preview.innerHTML = '<img src="' + imageUrl + '" alt="Slider Image" class="preview-image" onerror="this.style.display=\'none\'"><small class="text-muted">Image loaded successfully</small>';
+        } else if (imageUrl) {
+            preview.innerHTML = '<div class="preview-placeholder"><i class="bi bi-exclamation-triangle" style="font-size: 2rem; color: #ff9800;"></i><p>Invalid URL or image cannot be loaded</p></div>';
+        } else {
+            preview.innerHTML = '<div class="preview-placeholder"><i class="bi bi-image" style="font-size: 3rem;"></i><p>Image preview will appear here</p></div>';
+        }
+    });
+
+    function isValidUrl(string) {
+        try {
+            new URL(string);
+            return true;
+        } catch (_) {
+            return false;
+        }
+    }
+
+    // Initialize character counts on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        const titleLength = document.getElementById('Title').value.length;
+        const descLength = document.getElementById('Description').value.length;
+        document.getElementById('titleCount').textContent = titleLength;
+        document.getElementById('descCount').textContent = descLength;
+
+        // Trigger image preview on load
+        if (document.getElementById('imageUrlInput').value) {
+            document.getElementById('imageUrlInput').dispatchEvent(new Event('input'));
+        }
+    });
+
+    // Form validation
+    document.getElementById('updateForm').addEventListener('submit', function(e) {
+        const imageUrl = document.getElementById('imageUrlInput').value;
+        if (!isValidUrl(imageUrl)) {
+            e.preventDefault();
+            alert('Please enter a valid image URL');
+            document.getElementById('imageUrlInput').focus();
+        }
+    });
+</script>

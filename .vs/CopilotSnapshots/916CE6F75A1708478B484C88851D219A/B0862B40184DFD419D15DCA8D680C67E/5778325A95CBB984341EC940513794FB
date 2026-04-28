@@ -1,0 +1,14 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
+using MikayilHavaYollari.Models;
+
+namespace MikayilHavaYollari.Data
+{
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions options) : base(options){}
+        public DbSet<About> About { get; set; }
+        public DbSet<HomeSlider> HomeSliders { get; set; }
+        public DbSet<GetInTouch> GetInTouches { get; set; }
+    }
+}
