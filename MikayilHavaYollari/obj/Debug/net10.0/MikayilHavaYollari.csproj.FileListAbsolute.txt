@@ -322,3 +322,5 @@ C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Deb
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\MikayilHavaYollari.sourcelink.json
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\compressed\c2hp11qjjx-{0}-o498ljbxxw-o498ljbxxw.gz
