@@ -20,9 +20,14 @@ namespace MikayilHavaYollari.Controllers
         [HttpPost]
         public IActionResult Contact(GetInTouch model)
         {
-            _context.GetInTouches.Add(model);
-            _context.SaveChanges();
-            return RedirectToAction("Index", "Home");
+            if (ModelState.IsValid)
+            {
+                _context.GetInTouches.Add(model);
+                _context.SaveChanges();
+                TempData["Success"] = "Mesajınız başarıyla gönderildi. En kısa zamanda sizinle iletişime geçeceğiz.";
+                return RedirectToAction("Contact");
+            }
+            return View(model);
         }
     }
 }
