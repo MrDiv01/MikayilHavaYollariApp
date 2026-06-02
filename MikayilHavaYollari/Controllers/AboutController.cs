@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MikayilHavaYollari.Enums;
 using MikayilHavaYollari.Models;
 
 namespace MikayilHavaYollari.Controllers
@@ -7,7 +8,7 @@ namespace MikayilHavaYollari.Controllers
     {
         public IActionResult About()
         {
-        return View();
+            return View();
         }
     }
 }

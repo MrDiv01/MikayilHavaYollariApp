@@ -279,7 +279,6 @@ C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Deb
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\MikayilH.7525F32C.Up2Date
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\MikayilHavaYollari.dll
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\refint\MikayilHavaYollari.dll
@@ -322,3 +321,10 @@ C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Deb
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\MikayilHavaYollari.sourcelink.json
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\compressed\c2hp11qjjx-{0}-5ipweew5fc-5ipweew5fc.gz
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\compressed\wvx9m0qp3o-{0}-82kbgqncn3-82kbgqncn3.gz
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\compressed\o8kvalrdse-{0}-5j8b8ka4mo-5j8b8ka4mo.gz
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\compressed\3a5rrkz6rw-{0}-suyxuz66hu-suyxuz66hu.gz
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

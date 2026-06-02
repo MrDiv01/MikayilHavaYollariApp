@@ -1,4 +1,6 @@
 using MikayilHavaYollari.Data;
+using MikayilHavaYollari.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace MikayilHavaYollari
@@ -17,6 +19,32 @@ namespace MikayilHavaYollari
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
+            // Identity Configuration
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                // Password options
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireDigit = true;
+
+                // User options
+                options.User.RequireUniqueEmail = true;
+                options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+
+                // Lockout options
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.AllowedForNewUsers = true;
+
+                // SignIn options
+                options.SignIn.RequireConfirmedEmail = false;
+            })
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders()
+            .AddSignInManager<SignInManager<AppUser>>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -30,6 +58,8 @@ namespace MikayilHavaYollari
             app.UseHttpsRedirection();
             app.UseRouting();
 
+            // Authentication ve Authorization Middleware
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapStaticAssets();
@@ -47,7 +77,7 @@ namespace MikayilHavaYollari
                 pattern: "{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
-           
+
             app.Run();
         }
     }

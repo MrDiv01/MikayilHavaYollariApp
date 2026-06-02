@@ -1,0 +1,65 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<link rel="stylesheet" href="~/css/account.css">
+
+<div class="login-container">
+    <div class="login-card">
+        <div class="login-header">
+            <h1><i class="bi bi-shield-lock"></i> Login</h1>
+            <p>Hesabiniza giris yapin</p>
+        </div>
+
+        <form asp-action="Login" asp-controller="Account" method="post" id="loginForm">
+            <div class="form-group">
+                <label for="email">Email Adresi</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="your@email.com" required>
+                <div class="form-error" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Sifre</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="........" required>
+                <div class="form-error" id="passwordError"></div>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="rememberMe" name="rememberMe" value="true">
+                <label class="form-check-label" for="rememberMe">
+                    Beni hatirla
+                </label>
+            </div>
+
+            <div class="forgot-password">
+                <a href="@Url.Action("ForgotPassword", "Account")">Sifremi Unuttum</a>
+            </div>
+
+            <button type="submit" class="btn-login">
+                <i class="bi bi-box-arrow-in-right"></i> Giris Yap
+            </button>
+        </form>
+
+        <div class="divider">
+            <span>veya</span>
+        </div>
+
+        <div class="social-login">
+            <a href="#" class="social-btn">
+                <i class="bi bi-google"></i>
+            </a>
+            <a href="#" class="social-btn">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="social-btn">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+
+        <div class="signup-link">
+            Hesabiniz var mi? <a href="@Url.Action("Register", "Account")">Kayit ol</a>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/login.js"></script>

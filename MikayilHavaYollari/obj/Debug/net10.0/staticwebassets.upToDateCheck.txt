@@ -180,6 +180,10 @@ wwwroot\main\scss\components\_site-navbar.scss
 wwwroot\main\scss\index.html
 wwwroot\main\scss\style.scss
 wwwroot\main\sterial-thumb-min.jpg
+wwwroot\css\admin-layout.css
+wwwroot\css\account.css
+wwwroot\js\register.js
+wwwroot\js\login.js
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\scss\index.html
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\README.txt
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\js\tiny-slider.js
@@ -227,3 +231,7 @@ C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\css\bootstrap-reboot.css
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\css\bootstrap-grid.css
 C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\main\css\aos.css
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\css\admin-layout.css
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\css\account.css
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\js\login.js
+C:\Users\MSI\Desktop\BackendLondon\MikayilHavaYollari\MikayilHavaYollari\wwwroot\js\register.js
