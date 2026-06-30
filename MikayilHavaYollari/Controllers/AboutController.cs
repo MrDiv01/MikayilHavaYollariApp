@@ -8,6 +8,11 @@ namespace MikayilHavaYollari.Controllers
     {
         public IActionResult About()
         {
+            // 1. ViewBag - Dinamikdir, nöqtə ilə yazılır
+            //ViewBag.SahiheBasligi = "ViewBag Testing";
+
+            //// 2. ViewData - Key-value (string indeks) ilə yazılır
+            ViewData["Metn"] = "Zəhmət olmasa formunu doldurun.";
             return View();
         }
     }

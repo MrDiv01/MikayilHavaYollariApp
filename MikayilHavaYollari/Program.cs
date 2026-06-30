@@ -1,4 +1,5 @@
 using MikayilHavaYollari.Data;
+using MikayilHavaYollari.Helper;
 using MikayilHavaYollari.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace MikayilHavaYollari
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<IContactEmailService, ContactEmailService>();
 
             // MSSQL bağlantısı ekle
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");

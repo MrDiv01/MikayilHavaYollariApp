@@ -10,5 +10,6 @@ namespace MikayilHavaYollari.Data
         public DbSet<About> About { get; set; }
         public DbSet<HomeSlider> HomeSliders { get; set; }
         public DbSet<GetInTouch> GetInTouches { get; set; }
+        public DbSet<OurServices> OurServices { get; set; }
     }
 }

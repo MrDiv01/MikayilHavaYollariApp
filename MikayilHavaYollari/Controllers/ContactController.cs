@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MikayilHavaYollari.Data;
+using MikayilHavaYollari.Helper;
 using MikayilHavaYollari.Models;
 
 namespace MikayilHavaYollari.Controllers
@@ -7,10 +8,17 @@ namespace MikayilHavaYollari.Controllers
     public class ContactController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IContactEmailService _contactEmailService;
+        private readonly ILogger<ContactController> _logger;
 
-        public ContactController(ApplicationDbContext context)
+        public ContactController(
+            ApplicationDbContext context,
+            IContactEmailService contactEmailService,
+            ILogger<ContactController> logger)
         {
             _context = context;
+            _contactEmailService = contactEmailService;
+            _logger = logger;
         }
         public IActionResult Contact()
         {
@@ -18,12 +26,22 @@ namespace MikayilHavaYollari.Controllers
         }
 
         [HttpPost]
-        public IActionResult Contact(GetInTouch model)
+        public async Task<IActionResult> Contact(GetInTouch model)
         {
             if (ModelState.IsValid)
             {
-                _context.GetInTouches.Add(model);
-                _context.SaveChanges();
+                await _context.GetInTouches.AddAsync(model);
+                await _context.SaveChangesAsync();
+
+                try
+                {
+                    await _contactEmailService.SendContactNotificationAsync(model);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Contact mesaji saxlanildi, amma email gonderile bilmedi.");
+                }
+
                 return RedirectToAction("Index", "Home");
             }
             else

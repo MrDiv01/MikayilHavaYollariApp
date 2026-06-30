@@ -212,7 +212,7 @@
 
     <!-- Form Section -->
     <div class="form-container">
-        <form asp-action="Create" asp-controller="HomeSlider" asp-area="Admin" method="post" id="updateForm">
+        <form asp-action="Create" asp-controller="HomeSlider" asp-area="Admin" method="post" id="updateForm" enctype="multipart/form-data" >
             <!-- Hidden ID Field -->
             <input type="hidden" asp-for="Id" />
 
@@ -264,11 +264,11 @@
             <div class="row mb-4">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label asp-for="ImageUrl">
-                            <i class="bi bi-image"></i> Image URL
+                        <label asp-for="ImageFile">
+                            <i class="bi bi-image"></i> Image File
                         </label>
-                        <input type="url" asp-for="ImageUrl" class="form-control" placeholder="https://example.com/image.jpg" id="imageUrlInput" required>
-                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                        <input asp-for="ImageFile" class="form-control" placeholder="https://example.com/image.jpg" id="imageUrlInput" required>
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-md-6">

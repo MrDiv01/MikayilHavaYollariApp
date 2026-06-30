@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MikayilHavaYollari.Data;
 using MikayilHavaYollari.Models;
+using MikayilHavaYollari.ViewModels;
 using System.Diagnostics;
 
 namespace MikayilHavaYollari.Controllers
@@ -13,10 +15,15 @@ namespace MikayilHavaYollari.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            HomeSlider homeSlider = _context.HomeSliders.FirstOrDefault(x=>x.IsActive == true);
-            return View(homeSlider);
+
+            HomeViewModel homeViewModel = new HomeViewModel()
+            {
+                homeSlider =await _context.HomeSliders.FirstOrDefaultAsync(x => x.IsActive == true),
+                ourServices =await _context.OurServices.ToListAsync()
+            };
+            return View(homeViewModel);
             
         }
     }

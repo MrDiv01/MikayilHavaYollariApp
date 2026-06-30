@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MikayilHavaYollari.Data;
+using MikayilHavaYollari.Helper;
 using MikayilHavaYollari.Models;
 
 namespace MikayilHavaYollari.Areas.Admin.Controllers
@@ -9,10 +10,12 @@ namespace MikayilHavaYollari.Areas.Admin.Controllers
     public class HomeSliderController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public HomeSliderController(ApplicationDbContext context)
+        public HomeSliderController(ApplicationDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
         public IActionResult Index()
         {
@@ -32,6 +35,7 @@ namespace MikayilHavaYollari.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(HomeSlider data)
         {
+            data.ImageUrl = ImageUploadServices.SaveFile(_env.WebRootPath, "uploads", data.ImageFile);
             _context.HomeSliders.Add(data);
             _context.SaveChanges();
             return RedirectToAction("Index");
@@ -55,11 +59,12 @@ namespace MikayilHavaYollari.Areas.Admin.Controllers
         public IActionResult Update(HomeSlider slider)
         {
             var data = _context.HomeSliders.FirstOrDefault(x => x.Id == slider.Id);
+            ImageUploadServices.DeleteFile(_env.WebRootPath, "uploads", data.ImageUrl);
             if (data == null)
             {
                 return NotFound();
             }
-            data.ImageUrl = slider.ImageUrl;
+            data.ImageUrl = ImageUploadServices.SaveFile(_env.WebRootPath, "uploads", slider.ImageFile);
             data.Title = slider.Title;
             data.Description = slider.Description;
             data.ButtonText = slider.ButtonText;
