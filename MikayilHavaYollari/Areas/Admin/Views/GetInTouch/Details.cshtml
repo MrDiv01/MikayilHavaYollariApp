@@ -1,0 +1,138 @@
+@model MikayilHavaYollari.Models.GetInTouch
+
+@{
+    ViewData["Title"] = "Mesaj Detayları";
+}
+
+<div class="container-fluid mt-5">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="mb-2">Mesaj Detayları</h1>
+                    <p class="text-muted">Mesaj ID: <strong>#@Model.Id</strong></p>
+                </div>
+                <a href="@Url.Action("Index", "GetInTouch", new { area = "Admin" })" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Geri Dön
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Ana Mesaj Kartı -->
+        <div class="col-md-8">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">
+                        <i class="fas fa-envelope"></i> @Model.Subject
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-4">
+                        <h6 class="text-muted mb-2">Mesaj İçeriği:</h6>
+                        <p class="lead" style="white-space: pre-wrap; line-height: 1.6;">@Model.Message</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- İşlemler -->
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <h6 class="mb-0">İşlemler</h6>
+                </div>
+                <div class="card-body">
+                    <a href="mailto:@Model.Email?subject=Re: @Model.Subject" class="btn btn-info me-2" target="_blank">
+                        <i class="fas fa-reply"></i> Email ile Yanıtla
+                    </a>
+                    <a href="@Url.Action("Delete", "GetInTouch", new { area = "Admin", id = Model.Id })" 
+                       class="btn btn-danger" onclick="return confirm('Bu mesajı silmek istediğinize emin misiniz?')">
+                        <i class="fas fa-trash"></i> Sil
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gönderici Bilgileri -->
+        <div class="col-md-4">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-light">
+                    <h6 class="mb-0">
+                        <i class="fas fa-user"></i> Gönderici Bilgileri
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label text-muted small">Ad Soyad</label>
+                        <p class="h6">@Model.UserName</p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-muted small">Email Adresi</label>
+                        <p>
+                            <a href="mailto:@Model.Email" class="text-decoration-none">
+                                <i class="fas fa-envelope"></i> @Model.Email
+                            </a>
+                        </p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-muted small">Alındı</label>
+                        <p>
+                            <i class="fas fa-calendar"></i> 
+                            @Model.CreatedAt.ToString("dd.MM.yyyy")
+                            <br />
+                            <i class="fas fa-clock"></i>
+                            @Model.CreatedAt.ToString("HH:mm:ss")
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hızlı İletişim -->
+            <div class="card shadow-sm bg-light">
+                <div class="card-body">
+                    <h6 class="card-title">Hızlı İletişim</h6>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-primary btn-sm" 
+                                onclick="copyToClipboard('@Model.Email')">
+                            <i class="fas fa-copy"></i> Email Kopyala
+                        </button>
+                        <a href="@Url.Action("Index", "GetInTouch", new { area = "Admin" })" class="btn btn-outline-secondary btn-sm">
+                            <i class="fas fa-list"></i> Listeye Dön
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Email adresi kopyalandı: ' + text);
+        });
+    }
+</script>
+
+<style>
+    .card {
+        border: none;
+        border-radius: 0.5rem;
+    }
+
+    .card-header {
+        border-bottom: 1px solid #f0f0f0;
+        font-weight: 600;
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .lead {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 0.4rem;
+        border-left: 4px solid #0d6efd;
+    }
+</style>

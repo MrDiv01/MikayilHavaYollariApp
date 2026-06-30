@@ -1,0 +1,75 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container-fluid mt-5">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h1 class="mb-4">Admin Paneli</h1>
+            <p class="text-muted">Hoş geldiniz! Aşağıdaki yönetim panellerini kullanarak sitenizi yönetebilirsiniz.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Home Slider Management Card -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="avatar bg-primary text-white rounded-circle" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <h5 class="card-title ms-3 mb-0">Home Slider</h5>
+                    </div>
+                    <p class="card-text text-muted">Ana sayfada görünen slider görselleri ve içeriğini yönetin.</p>
+                    <a href="@Url.Action("Index", "HomeSlider", new { area = "Admin" })" class="btn btn-primary btn-sm">
+                        <i class="fas fa-arrow-right"></i> Yönet
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us / GetInTouch Card -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="avatar bg-success text-white rounded-circle" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h5 class="card-title ms-3 mb-0">İletişim Mesajları</h5>
+                    </div>
+                    <p class="card-text text-muted">Ziyaretçilerden gelen tüm iletişim isteklerini yönetin.</p>
+                    <a href="@Url.Action("Index", "GetInTouch", new { area = "Admin" })" class="btn btn-success btn-sm">
+                        <i class="fas fa-arrow-right"></i> Yönet
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Future management cards can be added here -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-sm h-100 bg-light">
+                <div class="card-body text-center">
+                    <p class="text-muted"><small>Yeni yönetim panelleri yakında eklenecek...</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border: 1px solid #dee2e6;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+    
+    .avatar {
+        font-size: 1.5rem;
+    }
+</style>

@@ -20,6 +20,7 @@ namespace MikayilHavaYollari.Controllers
             _contactEmailService = contactEmailService;
             _logger = logger;
         }
+
         public IActionResult Contact()
         {
             return View();
@@ -42,13 +43,12 @@ namespace MikayilHavaYollari.Controllers
                     _logger.LogError(ex, "Contact mesaji saxlanildi, amma email gonderile bilmedi.");
                 }
 
-                return RedirectToAction("Index", "Home");
+                TempData["Success"] = "Mesajınız başarıyla gönderildi. En kısa zamanda sizinle iletişime geçeceğiz.";
+                return RedirectToAction("Contact");
             }
-            else
-            {
-                ModelState.AddModelError("", "Inputlar bos qala bilmez");
-                return View(model);
-            }
+
+            ModelState.AddModelError("", "Inputlar bos qala bilmez");
+            return View(model);
         }
     }
 }
